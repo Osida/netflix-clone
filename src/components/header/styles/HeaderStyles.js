@@ -1,5 +1,5 @@
 import styled from 'styled-components/macro';
-import { Link as ReachRouterLink } from 'react-router-dom';
+import { Link as RouterLink } from 'react-router-dom';
 
 export const Background = styled.div`
   display: flex;
@@ -16,10 +16,10 @@ export const Background = styled.div`
 export const Container = styled.div`
   display: flex;
   margin: 0 56px;
-  /* height: 100px; */
-  height: 5px;
+  height: 100px;
+  /* height: 5px; */
   /* padding-top: 20px; */
-  padding-top: 40px;
+  /* padding-top: 40px; */
   justify-content: space-between;
   align-items: center;
 
@@ -103,7 +103,7 @@ export const SearchIcon = styled.button`
   }
 `;
 
-export const ButtonLink = styled(ReachRouterLink)`
+export const ButtonLink = styled(RouterLink)`
   display: block;
   background-color: #e50914;
   width: 84px;
@@ -114,8 +114,8 @@ export const ButtonLink = styled(ReachRouterLink)`
   border-radius: 3px;
   padding: 8px 17px;
   cursor: pointer;
-  box-sizing: border-box;
   text-decoration: none;
+  box-sizing: border-box;
 
   &:hover {
     background: #f40612;

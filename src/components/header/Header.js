@@ -11,7 +11,7 @@ Header.Frame = function HeaderFrame({ children, ...restProps }) {
 };
 
 Header.ButtonLink = function HeaderButtonLink({ children, ...restProps }) {
-  return <ButtonLink>{children}</ButtonLink>;
+  return <ButtonLink {...restProps}>{children}</ButtonLink>;
 };
 
 Header.Logo = function HeaderLogo({ to, ...restProps }) {
