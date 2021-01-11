@@ -5,3 +5,5 @@ export { default as Footer } from "./footer/Footer.js";
 export { default as Header } from "./header/Header.js";
 export { default as Feature } from "./feature/Feature.js";
 export { default as Form } from "./form/Form.js";
+export { default as Profiles } from "./profiles/Profiles.js";
+export { default as Loading } from "./loading/Loading.js";
